@@ -3,13 +3,35 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Page Title</title>
+
+		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 <body>
-	<h1>Location Finder</h1>
+
+<div class="container">
+<div class="row text-center">
+	<h1 class="col-sm-6 col-sm-offset-3">Location Finder</h1>
+</div>
+</div>
+
+<div class="container">
+<div class="row text-center">
+	
+	<div class="searchBar">
 	<input type='text' id='location'><button onclick="findLocation()">Find location</button>
+	</div>
 	<p id='address'>Address: </p>
 	<p id='lat'>Lattitude: </p>
 	<p id="lng">Longitude: </p>
+
+</div>
+</div>
+	
+    <!-- Bootstrap js -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script src="js/script.js"></script>
